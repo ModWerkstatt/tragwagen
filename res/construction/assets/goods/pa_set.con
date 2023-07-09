@@ -1,0 +1,231 @@
+function data()
+return {
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("pa-Behälter"),
+		description = _("pa-Behälter als Asstets")
+	},
+	availability = {},
+	buildMode = "MULTI",
+	categories = { "goods" },
+	order = 212210101,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "ddihkr",
+			name = _("Ddihkr"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Ddihkr_1.tga", },
+			tooltip = _("Asset_Ddihkr"),
+		},
+		{
+			key = "ddikr",
+			name = _("Ddikr"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Ddikr624_1.tga", "ui/construction/assets/goods/Ddikr624_2.tga", "ui/construction/assets/goods/Ddikr624_3.tga", "ui/construction/assets/goods/Ddikr624_4.tga", },
+			tooltip = _("Asset_Ddikr"),
+		},
+		{
+			key = "ddr",
+			name = _("Ddr"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Ddr_1.tga", "ui/construction/assets/goods/Ddr_2.tga", },
+			tooltip = _("Asset_Ddr"),
+		},
+		{
+			key = "ddzkr",
+			name = _("Ddzkr"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Ddzkr_1.tga", "ui/construction/assets/goods/Ddzkr_2.tga", "ui/construction/assets/goods/Ddzkr_3.tga", },
+			tooltip = _("Asset_Ddzkr"),
+		},
+		{
+			key = "dzkr",
+			name = _("Dzkr"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Dzkr501_1.tga", },
+			tooltip = _("Asset_Dzkr"),
+		},
+		{
+			key = "edkrt",
+			name = _("Edkrt"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Edkrt_1.tga", },
+			tooltip = _("Asset_Edkrt"),
+		},
+		{
+			key = "efkr",
+			name = _("Efkr"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Efkr401_1.tga", },
+			tooltip = _("Asset_Efkr"),
+		},
+		{
+			key = "eikrt",
+			name = _("Eikrt"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Eikrt_1.tga", },
+			tooltip = _("Asset_Eikrt"),
+		},
+		{
+			key = "ekrt",
+			name = _("Ekrt 50 und 65"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Ekrt50_1.tga", "ui/construction/assets/goods/Ekrt65_1.tga", "ui/construction/assets/goods/Ekrt65_2.tga", },
+			tooltip = _("Asset_Ekrt"),
+		},
+		{
+			key = "eokrt",
+			name = _("Eokrt"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Eokrt_1.tga", },
+			tooltip = _("Asset_Eokrt"),
+		},
+		{
+			key = "eoskrt",
+			name = _("Eoskrt 021 und 051"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/assets/goods/leer.tga", "ui/construction/assets/goods/Eoskrt021_1_coal.tga",  "ui/construction/assets/goods/Eoskrt021_1_iron.tga",  "ui/construction/assets/goods/Eoskrt021_1_stone.tga",  "ui/construction/assets/goods/Eoskrt051_1_coal.tga",  "ui/construction/assets/goods/Eoskrt051_1_iron.tga",  "ui/construction/assets/goods/Eoskrt051_1_stone.tga", },
+			tooltip = _("Asset_Eoskrt"),
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+    
+        -- Ddihkr
+		if params.ddihkr == 0 then
+    		result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.ddihkr == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddihkr_1.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Ddikr
+		if params.ddikr == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.ddikr == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddikr624_1.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.ddikr == 2 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddikr624_2.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.ddikr == 3 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddikr624_3.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.ddikr == 4 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddikr624_4.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Ddr
+		if params.ddr == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+        if params.ddr == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddr_1.mdl", transf = {-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+        if params.ddr == 2 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddr_2.mdl", transf = {-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Ddzkr
+		if params.ddzkr == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.ddzkr == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddzkr_1.mdl", transf = {-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.ddzkr == 2 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddzkr_2.mdl", transf = {-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.ddzkr == 3 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ddzkr_3.mdl", transf = {-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Dzkr
+		if params.dzkr == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.dzkr == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Dzkr501_1.mdl", transf = {-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Edkrt
+		if params.edkrt == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.edkrt == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Edkrt_1.mdl", transf = {-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Efkr
+		if params.efkr == 0 then
+ 		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.efkr == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Efkr401_1.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Eikrt
+		if params.eikrt == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.eikrt == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Eikrt_1.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Ekrt
+		if params.ekrt == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.ekrt == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ekrt50_1.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.ekrt == 2 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ekrt65_1.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.ekrt == 3 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Ekrt65_2.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Eokrt
+		if params.eokrt == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.eokrt == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Eokrt_1.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+        -- Eoskrt
+		if params.eoskrt == 0 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/leer.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -50, 1, }, }
+		end
+		if params.eoskrt == 1 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Eoskrt021_1_coal.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.eoskrt == 2 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Eoskrt021_1_iron.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.eoskrt == 3 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Eoskrt021_1_stone.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.eoskrt == 4 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Eoskrt051_1_coal.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.eoskrt == 5 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Eoskrt051_1_iron.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+		if params.eoskrt == 6 then
+		    result.models[#result.models+1] = { id = "asset/mittelcontainer_db/Eoskrt051_1_stone.mdl", transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, }, }
+		end
+
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

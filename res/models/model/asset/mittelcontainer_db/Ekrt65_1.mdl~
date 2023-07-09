@@ -1,0 +1,68 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.05, 1.21, 2.6, },
+		bbMin = { -3.05, -1.21, 0, },
+	},
+	collider = {
+		params = { },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/rollcontainer_db/Ekrt65_1.mtl", },
+						mesh = "asset/rollcontainer_db/ekrt_65_lod0.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		}, {
+			node = {
+				children = {
+					{
+						materials = { "asset/rollcontainer_db/Ekrt65_1.mtl", },
+						mesh = "asset/rollcontainer_db/ekrt_65_lod1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+
+		}, {
+			node = {
+				children = {
+					{
+						materials = { "asset/rollcontainer_db/Ekrt65_1.mtl", },
+						mesh = "asset/rollcontainer_db/ekrt_65_lod2.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1000,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1950,
+			yearTo = 1975,
+		},
+		cost = {
+			price = 500,
+		},
+	},
+	version = 1,
+}
+end

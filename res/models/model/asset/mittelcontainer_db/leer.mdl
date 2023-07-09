@@ -1,0 +1,44 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.65313, 5.48503, 2.13556, },
+		bbMin = { -4.55424, -5.50559, -0.00184, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				animations = { },
+				children = {
+					{
+						_meshId = 1,
+						_origMeshId = 1,
+						materials = { "asset/Bundeswehr/piper_cub_glas.mtl", },
+						mesh = "asset/leer.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 1,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 0,
+			yearTo = 0,
+		},
+		cost = {
+			price = 0,
+		},
+	},
+	version = 1,
+}
+end
