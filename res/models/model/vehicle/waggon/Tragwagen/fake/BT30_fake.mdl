@@ -1,0 +1,260 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 5.0, 1.51414, 1.71786, },
+		bbMin = { -5.0, -1.51413, -0.04514, },
+	},
+	collider = {
+		params = {
+
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+		    node = {
+			    children = {
+				    {
+                        _meshId = 1,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/BT30_rumpf_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 2,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/rad_BT30_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.5, 0, 0.44624, 1, },
+				    },
+				    {
+					    _meshId = 3,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/rad_BT30_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, 0, 0.44624, 1, },
+				    },
+                    {
+				        _meshId = 4,
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+                        name = "zugschluss_de_front",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.375, -1.39, 1.66, 1, },
+			        },
+			    },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	        },
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+		    node = {
+			    children = {
+				    {
+                        _meshId = 1,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/BT30_rumpf_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+                        _meshId = 2,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/rad_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.5, 0, 0.44624, 1, },
+				    },
+				    {
+					    _meshId = 3,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/rad_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, 0, 0.44624, 1, },
+				    },
+			    },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	        },
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 400,
+		},
+		{
+		    node = {
+			    children = {
+				    {
+					    _meshId = 1,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/BT10_rumpf_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 2,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/rad_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.5, 0, 0.44624, 1, },
+				    },
+				    {
+					    _meshId = 3,
+					    materials = { "vehicle/waggon/Tragwagen/rumpf_BT30.mtl", },
+					    mesh = "vehicle/waggon/Tragwagen/rad_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, 0, 0.44624, 1, },
+				    },
+			    },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	        },
+			static = false,
+			visibleFrom = 400,
+			visibleTo = 1000,
+		},
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1, 
+			speedEmission = -1,
+		},
+		availability = {
+			yearFrom = 1952,
+			yearTo = 1979,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("BT30_1_name_fake"),
+			description = _("BT30_1_description"),
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Tragwagen/rad_BT30_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 4 },
+				},
+                {
+					axles = { "vehicle/waggon/Tragwagen/rad_lod1.msh", },
+				},
+                {
+					axles = { "vehicle/waggon/Tragwagen/rad_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = { name = "mw_altGz", },
+			topSpeed = 22.222222222,
+			weight = 7.2,
+		},
+        cargoSlotProvider = {
+			slots = {
+                {
+					models = {
+						"asset/mittelcontainer_db/Ddzkr_1.mdl",
+                        "asset/mittelcontainer_db/Dzkr501_1.mdl",
+						"asset/mittelcontainer_db/Eikrt_1.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_1.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_2.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_3.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_4.mdl",
+						"asset/mittelcontainer_db/Ekrt50_1.mdl",
+                        "asset/mittelcontainer_db/Ekrt65_1.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_coal.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_coal.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_iron.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_iron.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_stone.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_stone.mdl",
+						"asset/mittelcontainer_db/Edkrt_1.mdl",
+						"asset/mittelcontainer_db/Ddihkr_1.mdl",
+                        "asset/mittelcontainer_db/Ddr_1.mdl",
+                        "asset/mittelcontainer_db/Ddr_2.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, 0, 1.31, 1, },
+					randomId = 0,
+				},
+                {
+					models = {
+						"asset/mittelcontainer_db/Ddzkr_1.mdl",
+                        "asset/mittelcontainer_db/Dzkr501_1.mdl",
+						"asset/mittelcontainer_db/Eikrt_1.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_1.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_2.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_3.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_4.mdl",
+						"asset/mittelcontainer_db/Ekrt50_1.mdl",
+                        "asset/mittelcontainer_db/Ekrt65_1.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_coal.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_coal.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_iron.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_iron.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_stone.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_stone.mdl",
+						"asset/mittelcontainer_db/Edkrt_1.mdl",
+						"asset/mittelcontainer_db/Ddihkr_1.mdl",
+                        "asset/mittelcontainer_db/Ddr_1.mdl",
+                        "asset/mittelcontainer_db/Ddr_2.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.31, 1, },
+					randomId = 1,
+				},
+                {
+					models = {
+						"asset/mittelcontainer_db/Ddzkr_1.mdl",
+                        "asset/mittelcontainer_db/Dzkr501_1.mdl",
+						"asset/mittelcontainer_db/Eikrt_1.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_1.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_2.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_3.mdl",
+                        "asset/mittelcontainer_db/Ddikr624_4.mdl",
+						"asset/mittelcontainer_db/Ekrt50_1.mdl",
+                        "asset/mittelcontainer_db/Ekrt65_1.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_coal.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_coal.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_iron.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_iron.mdl",
+						"asset/mittelcontainer_db/Eoskrt021_1_stone.mdl",
+                        "asset/mittelcontainer_db/Eoskrt051_1_stone.mdl",
+						"asset/mittelcontainer_db/Edkrt_1.mdl",
+						"asset/mittelcontainer_db/Ddihkr_1.mdl",
+                        "asset/mittelcontainer_db/Ddr_1.mdl",
+                        "asset/mittelcontainer_db/Ddr_2.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, 0, 1.31, 1, },
+					randomId = 2,
+				},
+		    },
+        },
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+                {
+				    {
+					    {
+						    capacity = 12,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 1, 2 },
+										},
+									},
+                                },
+                            },
+						    type = "COAL",
+					    },
+				    },
+			    },
+		    },
+			loadSpeed = 3,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Tragwagen/fake/menu_Tragwagen_fake.mdl",
+		},
+	},
+	version = 1,
+}
+end

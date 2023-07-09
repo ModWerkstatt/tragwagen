@@ -36,15 +36,15 @@ return {
 				            },
                             {
 				                _meshId = 5,
-				                materials = { "vehicle/waggon/zugschluss.mtl", },
-				                mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+								materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
                                 name = "zugschluss_de_front",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.95, -0.93, 1.74, 1, },
 			                },
                             {
 				                _meshId = 6,
-				                materials = { "vehicle/waggon/zugschluss.mtl", },
-				                mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+								materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
                                 name = "zugschluss_de_front",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.95, 0.93, 1.74, 1, },
 			                },
@@ -72,20 +72,6 @@ return {
 					            mesh = "vehicle/waggon/Tragwagen/rad_BTs50_lod0.msh",
 					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.425, 0, 0.44624, 1, },
 				            },
-                            {
-				                _meshId = 11,
-				                materials = { "vehicle/waggon/zugschluss.mtl", },
-				                mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
-                                name = "zugschluss_de_front",
-				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.95, -0.93, 1.74, 1, },
-			                },
-                            {
-				                _meshId = 12,
-				                materials = { "vehicle/waggon/zugschluss.mtl", },
-				                mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
-                                name = "zugschluss_de_front",
-				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.95, 0.93, 1.74, 1, },
-			                },
 			            },
 				        name = "wagen2",
 				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.54, 0, 0, 1, },
@@ -236,7 +222,7 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/waggon/Tragwagen/rad_BTs50_lod0.msh", },
-					backBackwardParts = { 11, 12 },
+					backBackwardParts = { },
 					backForwardParts = { 5, 6 },
 				},
                 {
@@ -247,7 +233,7 @@ return {
 				},
 			},
 			engines = { },
-			soundSet = { name = "waggon_freight_old", },
+			soundSet = { name = "mw_altGz", },
 			topSpeed = 27.777777778,
 			weight = 15.8,
 		},

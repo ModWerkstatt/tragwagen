@@ -34,31 +34,17 @@ return {
 				    },
                     {
 				        _meshId = 4,
-				        materials = { "vehicle/waggon/zugschluss.mtl", },
-				        mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
                         name = "zugschluss_de_front",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.95, -0.93, 1.74, 1, },
 			        },
                     {
 				        _meshId = 5,
-				        materials = { "vehicle/waggon/zugschluss.mtl", },
-				        mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
                         name = "zugschluss_de_front",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.95, 0.93, 1.74, 1, },
-			        },
-                    {
-                        _meshId = 6,
-		                materials = { "vehicle/waggon/zugschluss.mtl", },
-				        mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
-                        name = "zugschluss_de_back",
-				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9, 0.93, 1.33, 1, },
-			        },
-                    {
-                        _meshId = 7,
-		                materials = { "vehicle/waggon/zugschluss.mtl", },
-				        mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
-                        name = "zugschluss_de_back",
-				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9, -0.93, 1.33, 1, },
 			        },
 			    },
 				name = "RootNode",
@@ -152,7 +138,7 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/waggon/Tragwagen/rad_BTs50_lod0.msh", },
-					backBackwardParts = { 6, 7 },
+					backBackwardParts = { },
 					backForwardParts = { 4, 5 },
 				},
                 {
@@ -163,7 +149,7 @@ return {
 				},
 			},
 			engines = { },
-			soundSet = { name = "waggon_freight_old", },
+			soundSet = { name = "mw_altGz", },
 			topSpeed = 27.777777778,
 			weight = 7.9,
 		},

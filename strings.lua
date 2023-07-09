@@ -33,6 +33,8 @@ return {
         ["Lbms589_DBAG_name"] = "Lbms 589 (DBAG)",
         ["Lbms589_DBAG_description"] = "Wagon for 5 pa containers, which was built especially for this purpose. In addition, it was possible to load the overseas containers that appeared from the end of the 1960s.",
         ["Lbms589_DBAG_Container_name"] = "Lbms 589 (DBAG) Container",
+		["Lbms589_Container_1965_name"] = "Lbms 589 Container 1965",
+		["Lbms589_Container_1982_name"] = "Lbms 589 Container 1982",
         ["Lbms589_DBAG_Container_description"] = "Wagon built for 5 pa containers, but here it can only load overseas containers.",
     
         ["Ddihkr"] = "Ddihkr",
@@ -57,6 +59,32 @@ return {
         ["Asset_Eokrt"] = "Open pa container for bulk materials that are not sensitive to weathering.",
         ["Eoskrt"] = "Eoskrt",
         ["Asset_Eoskrt"] = "Open pa container with vertical walls for bulk materials.",
+		
+		--- Fake
+		
+        ["Tragwagen_menu_fake"] = "Carrying wagon for pa containers Fake",
+		
+		["Fake_pa_wagen"] = "Activate fake carrier?",
+        ["option_pa_fake_desc"] = "Should the fake versions of the wagons be available in the game?",
+		["sound_check"] = "Activate own soundset?",
+		["option_sound_check"] = "Should the extra sound be activated?",
+		
+		["BT10_1_name_fake"] = "BT 10 Fake",
+        ["BT30_1_name_fake"] = "BT 30 Fake",
+        ["BTs50_1_name_fake"] = "BTs 50 Fake",
+        ["BTmms51_1_name_fake"] = "BTmms 51 Fake",
+        ["Laabs588_1_name_fake"] = "Laabs 588 Fake",
+        ["Laabkkmms588_1_name_fake"] = "Laabkkmms 588 Fake",
+        ["BTms55_1_name_fake"] = "BTms 55 Fake",
+        ["Lbms584_1_name_fake"] = "Lbms 584 Fake",
+
+        ["BTmms58_name_fake"] = "BTmms58 Fake",
+        ["Lbs589_name_fake"] = "Lbs 589 Fake",
+        ["Lbms589_name_fake"] = "Lbms 589 Fake",
+        ["Lbms589_DBAG_name_fake"] = "Lbms 589 (DBAG) Fake",
+        ["Lbms589_DBAG_Container_name_fake"] = "Lbms 589 (DBAG) Container Fake",
+		["Lbms589_Container_1965_name_fake"] = "Lbms 589 Container 1965 Fake",
+		["Lbms589_Container_1982_name_fake"] = "Lbms 589 Container 1982 Fake",
 
 	},
 	de = {
@@ -92,6 +120,8 @@ return {
         ["Lbms589_DBAG_name"] = "Lbms 589 (DBAG)",
         ["Lbms589_DBAG_description"] = "Wagen für 5 pa-Behälter, der speziell für diesen Einsatzzweck gebaut wurde. Außerdem war es möglich die ab Ende der 60er Jahre aufkommenden Überseecontainer zu verladen.",
         ["Lbms589_DBAG_Container_name"] = "Lbms 589 (DBAG) Container",
+		["Lbms589_Container_1965_name"] = "Lbms 589 Container 1965",
+		["Lbms589_Container_1982_name"] = "Lbms 589 Container 1982",
         ["Lbms589_DBAG_Container_description"] = "Wagen gebaut für 5 pa-Behälter, der hier aber nur Überseecontainer laden kann.",
 
         ["Ddihkr"] = "Ddihkr",
@@ -116,6 +146,33 @@ return {
         ["Asset_Eokrt"] = "Offener pa-Behälter für witterungsunempfindliche Schüttgüter.",
         ["Eoskrt"] = "Eoskrt",
         ["Asset_Eoskrt"] = "Offener pa-Behälter mit senkrechten Wänden für Schüttgüter.",
+		
+		
+		--- Fake
+		
+        ["Tragwagen_menu_fake"] = "Tragwagen für pa-Behälter Fake",
+		
+		["Fake_pa_wagen"] = "Fake Tragwagen Aktivieren?",
+        ["option_pa_fake_desc"] = "Sollen die Fake-Versionen der Tragwagen verfügbar sein im Spiel?",
+		["sound_check"] = "Eigenes Soundset aktivieren?",
+		["option_sound_check"] = "Soll der extra Sound aktiviert sein?",
+		
+		["BT10_1_name_fake"] = "BT 10 Fake",
+        ["BT30_1_name_fake"] = "BT 30 Fake",
+        ["BTs50_1_name_fake"] = "BTs 50 Fake",
+        ["BTmms51_1_name_fake"] = "BTmms 51 Fake",
+        ["Laabs588_1_name_fake"] = "Laabs 588 Fake",
+        ["Laabkkmms588_1_name_fake"] = "Laabkkmms 588 Fake",
+        ["BTms55_1_name_fake"] = "BTms 55 Fake",
+        ["Lbms584_1_name_fake"] = "Lbms 584 Fake",
+
+        ["BTmms58_name_fake"] = "BTmms58 Fake",
+        ["Lbs589_name_fake"] = "Lbs 589 Fake",
+        ["Lbms589_name_fake"] = "Lbms 589 Fake",
+        ["Lbms589_DBAG_name_fake"] = "Lbms 589 (DBAG) Fake",
+        ["Lbms589_DBAG_Container_name_fake"] = "Lbms 589 (DBAG) Container Fake",
+		["Lbms589_Container_1965_name_fake"] = "Lbms 589 Container 1965 Fake",
+		["Lbms589_Container_1982_name_fake"] = "Lbms 589 Container 1982 Fake",
 
 	},
 }
