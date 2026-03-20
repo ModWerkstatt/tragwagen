@@ -1,0 +1,22 @@
+{
+    "name": "German carrying trolley for pa container (medium container)",
+    "summary": "",
+    "description": "The use of large containers by rail really took off after 1945. Special carrying wagons were developed for this purpose, which were intended to enable quick and easy reloading. This system became established in the Federal Republic of Germany and was known under the catchy brand name \"Von Haus zu Haus\". Container traffic reached its peak in the sixties with about 25,000 units and about 5,700 large container carrying wagons for their transport. Some of them were on the road in a specially established city express service. From 1974 onwards, no new pa containers were procured, but were replaced by overseas containers.",
+    "localization" : {
+        "de": {
+            "name": "DB Tragwagen für pa-Behälter (Mittelcontainer)",
+            "summary": "",
+            "description": "Der Einsatz von Großbehältern auf der Schiene kam nach 1945 so richtig in Fahrt. Dafür wurden spezielle Tragwagen entwickelt, die ein schnelles und einfaches Umladen ermöglichen sollten. Dieses System setzte sich in der Bundesrepublik Deutschland durch und wurde unter dem griffigen Markennamen \"Von Haus zu Haus\" bekannt. Seinen Höhepunkt erreichte der Behälterverkehr in den sechziger Jahren mit rund 25.000 Einheiten und etwa 5.700 Großbehälter-Tragwagen zu deren Beförderung. Unterwegs waren sie teilweise in einem eigens eingerichteten Städte-Schnellverkehr. Ab 1974 wurden keine neuen pa-Behälter mehr beschafft, sondern durch Überseecontainer abgelöst."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/tragwagen-fuer-pa-behaelter"
+}

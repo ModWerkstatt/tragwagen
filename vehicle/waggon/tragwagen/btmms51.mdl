@@ -1,0 +1,2609 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 9.0799999237060546875, 1.51414000988006591796875, 1.7178599834442138671875, },
+			bbMin = { -9.0799999237060546875, -1.51412999629974365234375, -0.0451399981975555419921875, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 9.0799999237060546875, 1.51413500308990478515625, 0.8815000057220458984375, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.0000050067901611328125, 0.83635997772216796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/BTs50_rumpf_lod0.msh",
+									name = "BTs50_rumpf_lod0_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_BTs50_lod0.msh",
+									name = "rad_BTs50_lod0_3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_BTs50_lod0.msh",
+									name = "rad_BTs50_lod0_4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/zugschluss.mtl", },
+									mesh = "/vehicle/waggon/modwerkstatt_basis/zugschluss/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_de_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9500000476837158203125, -0.930000007152557373046875, 1.7400000095367431640625, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/zugschluss.mtl", },
+									mesh = "/vehicle/waggon/modwerkstatt_basis/zugschluss/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_de_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9500000476837158203125, 0.930000007152557373046875, 1.7400000095367431640625, 1, },
+								},
+							},
+							name = "wagen1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.53999996185302734375, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/BTs50_rumpf_lod0.msh",
+									name = "BTs50_rumpf_lod0_8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_BTs50_lod0.msh",
+									name = "rad_BTs50_lod0_9",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_BTs50_lod0.msh",
+									name = "rad_BTs50_lod0_10",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+							},
+							name = "wagen2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.53999996185302734375, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/BTs50_rumpf_lod1.msh",
+									name = "BTs50_rumpf_lod1_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "rad_lod1_3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "rad_lod1_4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+							},
+							name = "wagen1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.53999996185302734375, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/BTs50_rumpf_lod1.msh",
+									name = "BTs50_rumpf_lod1_6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "rad_lod1_7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "rad_lod1_8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+							},
+							name = "wagen2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.53999996185302734375, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 400,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/BTs50_rumpf_lod2.msh",
+									name = "BTs50_rumpf_lod2_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "rad_lod2_3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "rad_lod2_4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+							},
+							name = "wagen1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.53999996185302734375, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/BTs50_rumpf_lod2.msh",
+									name = "BTs50_rumpf_lod2_6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "rad_lod2_7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_BTmms51.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "rad_lod2_8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4249999523162841796875, 0, 0.446240007877349853515625, 1, },
+								},
+							},
+							name = "wagen2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.53999996185302734375, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 400,
+				visibleTo = 1200,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1958,
+				yearTo = 1965,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("BTmms51_1_description"),
+				name = _("BTmms51_1_name"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 27.77777862548828125,
+				weightEmpty = 15800,
+				weightMaxPayload = 0,
+			},
+			loadIndicator = { 
+				configs = { 
+					slots_0 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 6, },
+								},
+							},
+						},
+					},
+					slots_1 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 18, },
+								},
+							},
+						},
+					},
+					slots_10 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 12, },
+								},
+							},
+						},
+					},
+					slots_11 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 15, },
+								},
+							},
+						},
+					},
+					slots_12 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 9, },
+								},
+							},
+						},
+					},
+					slots_13 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 7, },
+								},
+							},
+						},
+					},
+					slots_14 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 19, },
+								},
+							},
+						},
+					},
+					slots_15 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 1, },
+								},
+								{
+									{ },
+									{ 7, },
+								},
+							},
+						},
+					},
+					slots_16 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 4, },
+								},
+							},
+						},
+					},
+					slots_17 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 7, },
+								},
+							},
+						},
+					},
+					slots_18 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 7, },
+								},
+							},
+						},
+					},
+					slots_19 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 1, },
+								},
+								{
+									{ },
+									{ 7, },
+								},
+							},
+						},
+					},
+					slots_2 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 0, },
+								},
+								{
+									{ },
+									{ 6, },
+								},
+							},
+						},
+					},
+					slots_20 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 49, },
+								},
+							},
+						},
+					},
+					slots_21 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 43, },
+								},
+							},
+						},
+					},
+					slots_22 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 46, },
+								},
+							},
+						},
+					},
+					slots_23 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 13, },
+								},
+							},
+						},
+					},
+					slots_24 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 16, },
+								},
+							},
+						},
+					},
+					slots_25 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 10, },
+								},
+							},
+						},
+					},
+					slots_26 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 8, },
+								},
+							},
+						},
+					},
+					slots_27 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 20, },
+								},
+							},
+						},
+					},
+					slots_28 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 2, },
+								},
+								{
+									{ },
+									{ 8, },
+								},
+							},
+						},
+					},
+					slots_29 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 5, },
+								},
+							},
+						},
+					},
+					slots_3 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 3, },
+								},
+							},
+						},
+					},
+					slots_30 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 8, },
+								},
+							},
+						},
+					},
+					slots_31 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 8, },
+								},
+							},
+						},
+					},
+					slots_32 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 2, },
+								},
+								{
+									{ },
+									{ 8, },
+								},
+							},
+						},
+					},
+					slots_33 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 50, },
+								},
+							},
+						},
+					},
+					slots_34 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 44, },
+								},
+							},
+						},
+					},
+					slots_35 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 47, },
+								},
+							},
+						},
+					},
+					slots_36 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 14, },
+								},
+							},
+						},
+					},
+					slots_37 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 17, },
+								},
+							},
+						},
+					},
+					slots_38 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 11, },
+								},
+							},
+						},
+					},
+					slots_39 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 27, },
+								},
+							},
+						},
+					},
+					slots_4 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 6, },
+								},
+							},
+						},
+					},
+					slots_40 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 39, },
+								},
+							},
+						},
+					},
+					slots_41 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 21, },
+								},
+								{
+									{ },
+									{ 27, },
+								},
+							},
+						},
+					},
+					slots_42 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 24, },
+								},
+							},
+						},
+					},
+					slots_43 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 27, },
+								},
+							},
+						},
+					},
+					slots_44 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 27, },
+								},
+							},
+						},
+					},
+					slots_45 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 21, },
+								},
+								{
+									{ },
+									{ 27, },
+								},
+							},
+						},
+					},
+					slots_46 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 57, },
+								},
+							},
+						},
+					},
+					slots_47 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 51, },
+								},
+							},
+						},
+					},
+					slots_48 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 54, },
+								},
+							},
+						},
+					},
+					slots_49 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 33, },
+								},
+							},
+						},
+					},
+					slots_5 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 6, },
+								},
+							},
+						},
+					},
+					slots_50 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 36, },
+								},
+							},
+						},
+					},
+					slots_51 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 30, },
+								},
+							},
+						},
+					},
+					slots_52 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 28, },
+								},
+							},
+						},
+					},
+					slots_53 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 40, },
+								},
+							},
+						},
+					},
+					slots_54 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 22, },
+								},
+								{
+									{ },
+									{ 28, },
+								},
+							},
+						},
+					},
+					slots_55 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 25, },
+								},
+							},
+						},
+					},
+					slots_56 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 28, },
+								},
+							},
+						},
+					},
+					slots_57 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 28, },
+								},
+							},
+						},
+					},
+					slots_58 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 22, },
+								},
+								{
+									{ },
+									{ 28, },
+								},
+							},
+						},
+					},
+					slots_59 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 58, },
+								},
+							},
+						},
+					},
+					slots_6 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 0, },
+								},
+								{
+									{ },
+									{ 6, },
+								},
+							},
+						},
+					},
+					slots_60 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 52, },
+								},
+							},
+						},
+					},
+					slots_61 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 55, },
+								},
+							},
+						},
+					},
+					slots_62 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 34, },
+								},
+							},
+						},
+					},
+					slots_63 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 37, },
+								},
+							},
+						},
+					},
+					slots_64 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 31, },
+								},
+							},
+						},
+					},
+					slots_65 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 29, },
+								},
+							},
+						},
+					},
+					slots_66 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 41, },
+								},
+							},
+						},
+					},
+					slots_67 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 23, },
+								},
+								{
+									{ },
+									{ 29, },
+								},
+							},
+						},
+					},
+					slots_68 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 26, },
+								},
+							},
+						},
+					},
+					slots_69 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 29, },
+								},
+							},
+						},
+					},
+					slots_7 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 48, },
+								},
+							},
+						},
+					},
+					slots_70 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 29, },
+								},
+							},
+						},
+					},
+					slots_71 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 23, },
+								},
+								{
+									{ },
+									{ 29, },
+								},
+							},
+						},
+					},
+					slots_72 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 59, },
+								},
+							},
+						},
+					},
+					slots_73 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 53, },
+								},
+							},
+						},
+					},
+					slots_74 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 56, },
+								},
+							},
+						},
+					},
+					slots_75 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 35, },
+								},
+							},
+						},
+					},
+					slots_76 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 38, },
+								},
+							},
+						},
+					},
+					slots_77 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 34, },
+								},
+							},
+						},
+					},
+					slots_8 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 42, },
+								},
+							},
+						},
+					},
+					slots_9 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 45, },
+								},
+							},
+						},
+					},
+				},
+				slots = {
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						randomId = 0,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						randomId = 2,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", "Ddikr624_2.mdl", "Ddikr624_3.mdl", "Ddikr624_4.mdl", },
+						randomId = 3,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", "Ddikr624_2.mdl", "Ddikr624_3.mdl", "Ddikr624_4.mdl", },
+						randomId = 4,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", "Ddikr624_2.mdl", "Ddikr624_3.mdl", "Ddikr624_4.mdl", },
+						randomId = 5,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						randomId = 6,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						randomId = 7,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						randomId = 8,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						randomId = 9,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						randomId = 10,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						randomId = 11,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						randomId = 12,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						randomId = 13,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						randomId = 14,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						randomId = 15,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						randomId = 16,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						randomId = 17,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Edkrt_1.mdl", },
+						randomId = 18,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Edkrt_1.mdl", },
+						randomId = 19,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Edkrt_1.mdl", },
+						randomId = 20,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						randomId = 21,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						randomId = 22,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						randomId = 23,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", },
+						randomId = 24,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", },
+						randomId = 25,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", },
+						randomId = 26,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						randomId = 27,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						randomId = 28,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						randomId = 29,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						randomId = 30,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						randomId = 31,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						randomId = 32,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						randomId = 33,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						randomId = 34,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						randomId = 35,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						randomId = 36,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						randomId = 37,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						randomId = 38,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Edkrt_1.mdl", },
+						randomId = 39,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Edkrt_1.mdl", },
+						randomId = 40,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Edkrt_1.mdl", },
+						randomId = 41,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 42,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 43,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 44,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 45,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 46,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 47,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 48,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 49,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_2",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 50,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 51,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 52,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 53,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 54,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 55,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 56,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 57,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 58,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+					},
+					{ 
+						group = "BTs50_rumpf_lod0_8",
+						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						randomId = 59,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.400000095367431640625, 0, 1.309999942779541015625, 1, },
+					},
+				},
+			},
+			maintenance = { 
+				lifespan = 29220,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "rad_BTs50_lod0_3", "rad_BTs50_lod0_4", "rad_BTs50_lod0_9", "rad_BTs50_lod0_10", "rad_lod1_3", "rad_lod1_4", "rad_lod1_7", "rad_lod1_8", "rad_lod2_3", "rad_lod2_4", "rad_lod2_7", "rad_lod2_8", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "/mw_altGz",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+									},
+									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "slots_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
+									},
+									loadIndicator = "slots_2",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
+									},
+									loadIndicator = "slots_3",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
+									},
+									loadIndicator = "slots_4",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
+									},
+									loadIndicator = "slots_5",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+									},
+									loadIndicator = "slots_6",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
+									},
+									loadIndicator = "slots_7",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
+									},
+									loadIndicator = "slots_8",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
+									},
+									loadIndicator = "slots_9",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
+									},
+									loadIndicator = "slots_10",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_11",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+									},
+									loadIndicator = "slots_12",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+									},
+									loadIndicator = "slots_13",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "slots_14",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
+									},
+									loadIndicator = "slots_15",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
+									},
+									loadIndicator = "slots_16",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
+									},
+									loadIndicator = "slots_17",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
+									},
+									loadIndicator = "slots_18",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+									},
+									loadIndicator = "slots_19",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
+									},
+									loadIndicator = "slots_20",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
+									},
+									loadIndicator = "slots_21",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
+									},
+									loadIndicator = "slots_22",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
+									},
+									loadIndicator = "slots_23",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_24",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+									},
+									loadIndicator = "slots_25",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+									},
+									loadIndicator = "slots_26",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "slots_27",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
+									},
+									loadIndicator = "slots_28",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
+									},
+									loadIndicator = "slots_29",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
+									},
+									loadIndicator = "slots_30",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
+									},
+									loadIndicator = "slots_31",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+									},
+									loadIndicator = "slots_32",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
+									},
+									loadIndicator = "slots_33",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
+									},
+									loadIndicator = "slots_34",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
+									},
+									loadIndicator = "slots_35",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
+									},
+									loadIndicator = "slots_36",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_37",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+									},
+									loadIndicator = "slots_38",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+									},
+									loadIndicator = "slots_39",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "slots_40",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
+									},
+									loadIndicator = "slots_41",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
+									},
+									loadIndicator = "slots_42",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
+									},
+									loadIndicator = "slots_43",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
+									},
+									loadIndicator = "slots_44",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+									},
+									loadIndicator = "slots_45",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
+									},
+									loadIndicator = "slots_46",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
+									},
+									loadIndicator = "slots_47",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
+									},
+									loadIndicator = "slots_48",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
+									},
+									loadIndicator = "slots_49",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_50",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+									},
+									loadIndicator = "slots_51",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+									},
+									loadIndicator = "slots_52",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "slots_53",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
+									},
+									loadIndicator = "slots_54",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
+									},
+									loadIndicator = "slots_55",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
+									},
+									loadIndicator = "slots_56",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
+									},
+									loadIndicator = "slots_57",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+									},
+									loadIndicator = "slots_58",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
+									},
+									loadIndicator = "slots_59",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
+									},
+									loadIndicator = "slots_60",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
+									},
+									loadIndicator = "slots_61",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
+									},
+									loadIndicator = "slots_62",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_63",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+									},
+									loadIndicator = "slots_64",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+									},
+									loadIndicator = "slots_65",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "slots_66",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
+									},
+									loadIndicator = "slots_67",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
+									},
+									loadIndicator = "slots_68",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
+									},
+									loadIndicator = "slots_69",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
+									},
+									loadIndicator = "slots_70",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+									},
+									loadIndicator = "slots_71",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
+									},
+									loadIndicator = "slots_72",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
+									},
+									loadIndicator = "slots_73",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
+									},
+									loadIndicator = "slots_74",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
+									},
+									loadIndicator = "slots_75",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_76",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+									},
+									loadIndicator = "slots_77",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "/vehicle/waggon/Tragwagen/menu_Tragwagen.mdl",
+				loadSpeed = 6,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end
