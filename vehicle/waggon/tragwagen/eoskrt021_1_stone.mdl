@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Eoskrt021_1.mtl", "::/cargos/shared/mat/cargo_stone.mtl", },
+							materials = { "mat/eoskrt021_1.mtl", "::/cargos/shared/mat/cargo_stone.mtl", },
 							mesh = "msh/btms_55_lod0.msh",
 							name = "btms_55_lod0_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -32,7 +32,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Eoskrt021_1.mtl", "::/cargos/shared/mat/cargo_stone.mtl", },
+							materials = { "mat/eoskrt021_1.mtl", "::/cargos/shared/mat/cargo_stone.mtl", },
 							mesh = "msh/btms_55_lod1.msh",
 							name = "btms_55_lod1_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },

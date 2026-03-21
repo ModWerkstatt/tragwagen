@@ -17,7 +17,7 @@ return {
 					children = {
 						{ 
 							materials = { "mat/ddihkr_1.mtl", },
-							mesh = "msh/Ddihkr_lod0.msh",
+							mesh = "msh/ddihkr_lod0.msh",
 							name = "Ddihkr_lod0_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -33,7 +33,7 @@ return {
 					children = {
 						{ 
 							materials = { "mat/ddihkr_1.mtl", },
-							mesh = "msh/Ddihkr_lod1.msh",
+							mesh = "msh/ddihkr_lod1.msh",
 							name = "Ddihkr_lod1_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},

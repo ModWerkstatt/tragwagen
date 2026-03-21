@@ -18,7 +18,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_Laabkkmms588.mtl", },
+									materials = { "mat/rumpf_laabkkmms588.mtl", },
 									mesh = "msh/bts50_rumpf_lod0.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -86,7 +86,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_Laabkkmms588.mtl", },
+									materials = { "mat/rumpf_laabkkmms588.mtl", },
 									mesh = "msh/bts50_rumpf_lod0.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -164,7 +164,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_Laabkkmms588.mtl", },
+									materials = { "mat/rumpf_laabkkmms588.mtl", },
 									mesh = "msh/bts50_rumpf_lod1.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -188,7 +188,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_Laabkkmms588.mtl", },
+									materials = { "mat/rumpf_laabkkmms588.mtl", },
 									mesh = "msh/bts50_rumpf_lod1.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -222,7 +222,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_Laabkkmms588.mtl", },
+									materials = { "mat/rumpf_laabkkmms588.mtl", },
 									mesh = "msh/bts50_rumpf_lod2.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -234,7 +234,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_Laabkkmms588.mtl", },
+									materials = { "mat/rumpf_laabkkmms588.mtl", },
 									mesh = "msh/bts50_rumpf_lod2.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -260,8 +260,8 @@ return {
 				price = -1,
 			},
 			desc = { 
-				desc = _("Laabkkmms588_1_desc"),
-				name = _("Laabkkmms588_1"),
+				desc = _("laabkkmms588_1_desc"),
+				name = _("laabkkmms588_1"),
 			},
 			emissions = { 
 				noise = { 

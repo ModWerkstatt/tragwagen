@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Ekrt50_1.mtl", },
+							materials = { "mat/ekrt50_1.mtl", },
 							mesh = "msh/ekrt_50_lod0.msh",
 							name = "ekrt_50_lod0_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -32,7 +32,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Ekrt50_1.mtl", },
+							materials = { "mat/ekrt50_1.mtl", },
 							mesh = "msh/ekrt_50_lod1.msh",
 							name = "ekrt_50_lod1_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
