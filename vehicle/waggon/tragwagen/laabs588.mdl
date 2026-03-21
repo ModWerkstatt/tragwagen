@@ -1344,7 +1344,7 @@ return {
 							--- Schüttgut/ cement, grain, fertilizer, sawdust
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
@@ -1359,7 +1359,7 @@ return {
 							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1374,7 +1374,7 @@ return {
 							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1389,7 +1389,7 @@ return {
 							--- Schüttgut/ sand
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1404,7 +1404,7 @@ return {
 							--- Schüttgut/ clay
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1419,7 +1419,7 @@ return {
 							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1434,7 +1434,7 @@ return {
 							--- GOODS/ beverages
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1449,7 +1449,7 @@ return {
 							--- GOODS/ meat, fish, vegetables
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = {  },
@@ -1464,7 +1464,7 @@ return {
 							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS" },
@@ -1479,7 +1479,7 @@ return {
 							--- LIQUID
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "LIQUID" },
@@ -1498,7 +1498,7 @@ return {
 							--- Schüttgut/ cement, grain, fertilizer, sawdust
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
@@ -1513,7 +1513,7 @@ return {
 							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1528,7 +1528,7 @@ return {
 							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1543,7 +1543,7 @@ return {
 							--- Schüttgut/ sand
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1558,7 +1558,7 @@ return {
 							--- Schüttgut/ clay
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1573,7 +1573,7 @@ return {
 							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1588,7 +1588,7 @@ return {
 							--- GOODS/ beverages
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1603,7 +1603,7 @@ return {
 							--- GOODS/ meat, fish, vegetables
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = {  },
@@ -1618,7 +1618,7 @@ return {
 							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS" },
@@ -1633,7 +1633,7 @@ return {
 							--- LIQUID
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "LIQUID" },
@@ -1652,7 +1652,7 @@ return {
 							--- Schüttgut/ cement, grain, fertilizer, sawdust
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
@@ -1667,7 +1667,7 @@ return {
 							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1682,7 +1682,7 @@ return {
 							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1697,7 +1697,7 @@ return {
 							--- Schüttgut/ sand
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1712,7 +1712,7 @@ return {
 							--- Schüttgut/ clay
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1727,7 +1727,7 @@ return {
 							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1742,7 +1742,7 @@ return {
 							--- GOODS/ beverages
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1757,7 +1757,7 @@ return {
 							--- GOODS/ meat, fish, vegetables
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = {  },
@@ -1772,7 +1772,7 @@ return {
 							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS" },
@@ -1787,7 +1787,7 @@ return {
 							--- LIQUID
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "LIQUID" },
@@ -1806,7 +1806,7 @@ return {
 							--- Schüttgut/ cement, grain, fertilizer, sawdust
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
@@ -1821,7 +1821,7 @@ return {
 							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1836,7 +1836,7 @@ return {
 							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1851,7 +1851,7 @@ return {
 							--- Schüttgut/ sand
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1866,7 +1866,7 @@ return {
 							--- Schüttgut/ clay
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1881,7 +1881,7 @@ return {
 							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1896,7 +1896,7 @@ return {
 							--- GOODS/ beverages
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1911,7 +1911,7 @@ return {
 							--- GOODS/ meat, fish, vegetables
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = {  },
@@ -1926,7 +1926,7 @@ return {
 							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS" },
@@ -1941,7 +1941,7 @@ return {
 							--- LIQUID
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "LIQUID" },
@@ -1960,7 +1960,7 @@ return {
 							--- Schüttgut/ cement, grain, fertilizer, sawdust
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
@@ -1975,7 +1975,7 @@ return {
 							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1990,7 +1990,7 @@ return {
 							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2005,7 +2005,7 @@ return {
 							--- Schüttgut/ sand
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2020,7 +2020,7 @@ return {
 							--- Schüttgut/ clay
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2035,7 +2035,7 @@ return {
 							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2050,7 +2050,7 @@ return {
 							--- GOODS/ beverages
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2065,7 +2065,7 @@ return {
 							--- GOODS/ meat, fish, vegetables
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = {  },
@@ -2080,7 +2080,7 @@ return {
 							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS" },
@@ -2095,7 +2095,7 @@ return {
 							--- LIQUID
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "LIQUID" },
@@ -2114,7 +2114,7 @@ return {
 							--- Schüttgut/ cement, grain, fertilizer, sawdust
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
@@ -2129,7 +2129,7 @@ return {
 							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2144,7 +2144,7 @@ return {
 							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2159,7 +2159,7 @@ return {
 							--- Schüttgut/ sand
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2174,7 +2174,7 @@ return {
 							--- Schüttgut/ clay
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2189,7 +2189,7 @@ return {
 							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2204,7 +2204,7 @@ return {
 							--- GOODS/ beverages
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -2219,7 +2219,7 @@ return {
 							--- GOODS/ meat, fish, vegetables
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = {  },
@@ -2234,7 +2234,7 @@ return {
 							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS" },
@@ -2249,7 +2249,7 @@ return {
 							--- LIQUID
 							{ 
 								cargoEntry = { 
-									capacity = 16,
+									capacity = 8,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "LIQUID" },
