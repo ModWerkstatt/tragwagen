@@ -18,7 +18,7 @@ return {
 						{ 
 							materials = { "mat/rumpf_lbms589_dbag.mtl", },
 							mesh = "msh/lbs589_rumpf_lod0.msh",
-							name = "lbs589_rumpf_lod0_1",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 

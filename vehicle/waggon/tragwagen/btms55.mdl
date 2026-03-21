@@ -23,8 +23,8 @@ return {
 						},
 						{ 
 							materials = { "mat/rumpf_btms55.mtl", },
-							mesh = "msh/Bremserhaus_Blech_lod0.msh",
-							name = "Bremserhaus_Blech_lod0_2",
+							mesh = "msh/bremserhaus_blech_lod0.msh",
+							name = "bremserhaus_blech_lod0_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.25, 0, 1.29499995708465576171875, 1, },
 						},
 						{ 
@@ -145,8 +145,8 @@ return {
 						},
 						{ 
 							materials = { "mat/rumpf_btms55.mtl", },
-							mesh = "msh/Bremserhaus_Blech_lod1.msh",
-							name = "Bremserhaus_Blech_lod1_2",
+							mesh = "msh/bremserhaus_blech_lod1.msh",
+							name = "bremserhaus_blech_lod1_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.650000095367431640625, 0, 1.29499995708465576171875, 1, },
 						},
 						{ 
@@ -179,8 +179,8 @@ return {
 						},
 						{ 
 							materials = { "mat/rumpf_btms55.mtl", },
-							mesh = "msh/Bremserhaus_Blech_lod2.msh",
-							name = "Bremserhaus_Blech_lod2_2",
+							mesh = "msh/bremserhaus_blech_lod2.msh",
+							name = "bremserhaus_blech_lod2_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.650000095367431640625, 0, 1.29499995708465576171875, 1, },
 						},
 					},
