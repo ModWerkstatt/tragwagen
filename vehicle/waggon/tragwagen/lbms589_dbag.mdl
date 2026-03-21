@@ -137,8 +137,8 @@ return {
 			cost = { 
 				price = -1,
 			},
-			desc = { 
-				desc = _("lbms589_dbag_desc"),
+			description = { 
+				description = _("lbms589_dbag_desc"),
 				name = _("lbms589_dbag"),
 			},
 			emissions = { 
@@ -168,7 +168,7 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 16, },
+									{ 0, },
 								},
 							},
 						},
@@ -178,111 +178,7 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 36, },
-								},
-							},
-						},
-					},
-					slots_10 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 36, },
-								},
-							},
-						},
-					},
-					slots_11 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 26, },
-								},
-							},
-						},
-					},
-					slots_12 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 31, },
-								},
-							},
-						},
-					},
-					slots_13 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 21, },
-								},
-							},
-						},
-					},
-					slots_14 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 17, },
-								},
-							},
-						},
-					},
-					slots_15 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 37, },
-								},
-							},
-						},
-					},
-					slots_16 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 7, },
-								},
-								{
-									{ },
-									{ 17, },
-								},
-							},
-						},
-					},
-					slots_17 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 12, },
-								},
-							},
-						},
-					},
-					slots_18 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 17, },
-								},
-							},
-						},
-					},
-					slots_19 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 17, },
+									{ 1, },
 								},
 							},
 						},
@@ -292,119 +188,7 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 6, },
-								},
-								{
-									{ },
-									{ 16, },
-								},
-							},
-						},
-					},
-					slots_20 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 7, },
-								},
-								{
-									{ },
-									{ 17, },
-								},
-							},
-						},
-					},
-					slots_21 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 52, },
-								},
-							},
-						},
-					},
-					slots_22 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 42, },
-								},
-							},
-						},
-					},
-					slots_23 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 47, },
-								},
-							},
-						},
-					},
-					slots_24 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 27, },
-								},
-							},
-						},
-					},
-					slots_25 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 32, },
-								},
-							},
-						},
-					},
-					slots_26 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 22, },
-								},
-							},
-						},
-					},
-					slots_27 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 18, },
-								},
-							},
-						},
-					},
-					slots_28 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 38, },
-								},
-							},
-						},
-					},
-					slots_29 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 8, },
-								},
-								{
-									{ },
-									{ 18, },
+									{ 2, },
 								},
 							},
 						},
@@ -414,111 +198,7 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 11, },
-								},
-							},
-						},
-					},
-					slots_30 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 13, },
-								},
-							},
-						},
-					},
-					slots_31 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 18, },
-								},
-							},
-						},
-					},
-					slots_32 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 18, },
-								},
-							},
-						},
-					},
-					slots_33 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 8, },
-								},
-								{
-									{ },
-									{ 18, },
-								},
-							},
-						},
-					},
-					slots_34 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 53, },
-								},
-							},
-						},
-					},
-					slots_35 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 43, },
-								},
-							},
-						},
-					},
-					slots_36 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 48, },
-								},
-							},
-						},
-					},
-					slots_37 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 28, },
-								},
-							},
-						},
-					},
-					slots_38 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 33, },
-								},
-							},
-						},
-					},
-					slots_39 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 23, },
+									{ 3, },
 								},
 							},
 						},
@@ -528,46 +208,102 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 16, },
+									{ 4, },
 								},
 							},
 						},
 					},
-					slots_40 = { 
+					slots_5 = { 
 						cargoSlots = { 
 							configurations = {
 								{
 									{ },
-									{ 19, },
+									{ 5, },
 								},
 							},
 						},
 					},
-					slots_41 = { 
+					slots_6 = { 
 						cargoSlots = { 
 							configurations = {
 								{
 									{ },
-									{ 39, },
+									{ 6, },
 								},
 							},
 						},
 					},
-					slots_42 = { 
+					slots_7 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 7, },
+								},
+							},
+						},
+					},
+					slots_8 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 8, },
+								},
+							},
+						},
+					},
+					slots_9 = { 
 						cargoSlots = { 
 							configurations = {
 								{
 									{ },
 									{ 9, },
 								},
+							},
+						},
+					},
+					slots_10 = { 
+						cargoSlots = { 
+							configurations = {
 								{
 									{ },
-									{ 19, },
+									{ 10, },
 								},
 							},
 						},
 					},
-					slots_43 = { 
+					slots_11 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 11, },
+								},
+							},
+						},
+					},
+					slots_12 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 12, },
+								},
+							},
+						},
+					},
+					slots_13 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 13, },
+								},
+							},
+						},
+					},
+					slots_14 = { 
 						cargoSlots = { 
 							configurations = {
 								{
@@ -577,12 +313,302 @@ return {
 							},
 						},
 					},
-					slots_44 = { 
+					slots_15 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 15, },
+								},
+							},
+						},
+					},
+					slots_16 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 16, },
+								},
+							},
+						},
+					},
+					slots_17 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 17, },
+								},
+							},
+						},
+					},
+					slots_18 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 18, },
+								},
+							},
+						},
+					},
+					slots_19 = { 
 						cargoSlots = { 
 							configurations = {
 								{
 									{ },
 									{ 19, },
+								},
+							},
+						},
+					},
+					slots_20 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 20, },
+								},
+							},
+						},
+					},
+					slots_21 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 21, },
+								},
+							},
+						},
+					},
+					slots_22 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 22, },
+								},
+							},
+						},
+					},
+					slots_23 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 23, },
+								},
+							},
+						},
+					},
+					slots_24 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 24, },
+								},
+							},
+						},
+					},
+					slots_25 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 25, },
+								},
+							},
+						},
+					},
+					slots_26 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 26, },
+								},
+							},
+						},
+					},
+					slots_27 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 27, },
+								},
+							},
+						},
+					},
+					slots_28 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 28, },
+								},
+							},
+						},
+					},
+					slots_29 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 29, },
+								},
+							},
+						},
+					},
+					slots_30 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 30, },
+								},
+							},
+						},
+					},
+					slots_31 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 31, },
+								},
+							},
+						},
+					},
+					slots_32 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 32, },
+								},
+							},
+						},
+					},
+					slots_33 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 33, },
+								},
+							},
+						},
+					},
+					slots_34 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 34, },
+								},
+							},
+						},
+					},
+					slots_35 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 35, },
+								},
+							},
+						},
+					},
+					slots_36 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 36, },
+								},
+							},
+						},
+					},
+					slots_37 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 37, },
+								},
+							},
+						},
+					},
+					slots_38 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 38, },
+								},
+							},
+						},
+					},
+					slots_39 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 39, },
+								},
+							},
+						},
+					},
+					slots_40 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 40, },
+								},
+							},
+						},
+					},
+					slots_41 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 41, },
+								},
+							},
+						},
+					},
+					slots_42 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 42, },
+								},
+							},
+						},
+					},
+					slots_43 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 43, },
+								},
+							},
+						},
+					},
+					slots_44 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 44, },
 								},
 							},
 						},
@@ -592,7 +618,7 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 19, },
+									{ 45, },
 								},
 							},
 						},
@@ -602,11 +628,7 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 9, },
-								},
-								{
-									{ },
-									{ 19, },
+									{ 46, },
 								},
 							},
 						},
@@ -616,7 +638,7 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 54, },
+									{ 47, },
 								},
 							},
 						},
@@ -626,7 +648,7 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 44, },
+									{ 48, },
 								},
 							},
 						},
@@ -641,575 +663,362 @@ return {
 							},
 						},
 					},
-					slots_5 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 16, },
-								},
-							},
-						},
-					},
-					slots_50 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 29, },
-								},
-							},
-						},
-					},
-					slots_51 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 34, },
-								},
-							},
-						},
-					},
-					slots_52 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 24, },
-								},
-							},
-						},
-					},
-					slots_53 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 20, },
-								},
-							},
-						},
-					},
-					slots_54 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 40, },
-								},
-							},
-						},
-					},
-					slots_55 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 10, },
-								},
-								{
-									{ },
-									{ 20, },
-								},
-							},
-						},
-					},
-					slots_56 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 15, },
-								},
-							},
-						},
-					},
-					slots_57 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 20, },
-								},
-							},
-						},
-					},
-					slots_58 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 20, },
-								},
-							},
-						},
-					},
-					slots_59 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 10, },
-								},
-								{
-									{ },
-									{ 20, },
-								},
-							},
-						},
-					},
-					slots_6 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 6, },
-								},
-								{
-									{ },
-									{ 16, },
-								},
-							},
-						},
-					},
-					slots_60 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 55, },
-								},
-							},
-						},
-					},
-					slots_61 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 45, },
-								},
-							},
-						},
-					},
-					slots_62 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 50, },
-								},
-							},
-						},
-					},
-					slots_63 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 37, },
-								},
-							},
-						},
-					},
-					slots_64 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 30, },
-								},
-							},
-						},
-					},
-					slots_65 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 35, },
-								},
-							},
-						},
-					},
-					slots_66 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 25, },
-								},
-							},
-						},
-					},
-					slots_7 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 51, },
-								},
-							},
-						},
-					},
-					slots_8 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 41, },
-								},
-							},
-						},
-					},
-					slots_9 = { 
-						cargoSlots = { 
-							configurations = {
-								{
-									{ },
-									{ 46, },
-								},
-							},
-						},
-					},
 				},
 				slots = {
+				--- Anfang
 					{ 
+					--- Schüttgut/ cement, grain, fertilizer, sawdust
 						group = "body",
-						models = { },
+						models = { "ddzkr_1.mdl", "ddzkr_2.mdl", "ddzkr_3.mdl", "dzkr501_1.mdl", "edkrt_1.mdl", },
 						randomId = 0,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ coal
 						group = "body",
-						models = { },
+						models = { "eoskrt021_1_coal.mdl", "eoskrt051_1_coal.mdl", },
 						randomId = 1,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.0799999237060546875, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ iron_ore
 						group = "body",
-						models = { },
+						models = { "eoskrt021_1_iron.mdl", "eoskrt051_1_iron.mdl", },
 						randomId = 2,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.0799999237060546875, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ sand
 						group = "body",
-						models = { },
+						models = { "eoskrt021_1_sand.mdl", "eoskrt051_1_sand.mdl", },
 						randomId = 3,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.0799999237060546875, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ clay
 						group = "body",
-						models = { },
+						models = { "eoskrt021_1_clay.mdl", "eoskrt051_1_clay.mdl", },
 						randomId = 4,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.0799999237060546875, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ stone
 						group = "body",
-						models = { },
+						models = { "eoskrt021_1_stone.mdl", "eoskrt051_1_stone.mdl", },
 						randomId = 5,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
 					{ 
+					--- GOODS/ beverages
 						group = "body",
-						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						models = { "ddikr624_1.mdl", "ddikr624_2.mdl", "ddikr624_3.mdl", "ddikr624_4.mdl", "ddihkr_1.mdl", },
 						randomId = 6,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
+					--- GOODS/ meat, fish, vegetables
 					{ 
 						group = "body",
-						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						models = { "eikrt_1.mdl", },
 						randomId = 7,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
+					--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 					{ 
 						group = "body",
-						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						models = { "ekrt50_1.mdl", "ekrt65_1.mdl", "ekrt65_2.mdl", },
 						randomId = 8,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Flüssigkeiten
 						group = "body",
-						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						models = { "ddr_1.mdl", "ddr_2.mdl", },
 						randomId = 9,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.255, 1, },
 					},
+				--- Mitte 
 					{ 
+					--- Schüttgut/ cement, grain, fertilizer, sawdust
 						group = "body",
-						models = { "Ddzkr_1.mdl", "Dzkr501_1.mdl", },
+						models = { "ddzkr_1.mdl", "ddzkr_2.mdl", "ddzkr_3.mdl", "dzkr501_1.mdl", "edkrt_1.mdl", },
 						randomId = 10,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.31, 1, },
 					},
 					{ 
+					--- Schüttgut/ coal,
 						group = "body",
-						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", "Ddikr624_2.mdl", "Ddikr624_3.mdl", "Ddikr624_4.mdl", },
+						models = { "eoskrt021_1_coal.mdl", "eoskrt051_1_coal.mdl", },
 						randomId = 11,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ iron_ore,
 						group = "body",
-						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", "Ddikr624_2.mdl", "Ddikr624_3.mdl", "Ddikr624_4.mdl", },
+						models = { "eoskrt021_1_iron.mdl", "eoskrt051_1_iron.mdl", },
 						randomId = 12,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ sand
 						group = "body",
-						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", "Ddikr624_2.mdl", "Ddikr624_3.mdl", "Ddikr624_4.mdl", },
+						models = { "eoskrt021_1_sand.mdl", "eoskrt051_1_sand.mdl", },
 						randomId = 13,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ clay
 						group = "body",
-						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", "Ddikr624_2.mdl", "Ddikr624_3.mdl", "Ddikr624_4.mdl", },
+						models = { "eoskrt021_1_clay.mdl", "eoskrt051_1_clay.mdl", },
 						randomId = 14,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ stone
 						group = "body",
-						models = { "Eikrt_1.mdl", "Ddikr624_1.mdl", "Ddikr624_2.mdl", "Ddikr624_3.mdl", "Ddikr624_4.mdl", },
+						models = { "eoskrt021_1_stone.mdl", "eoskrt051_1_stone.mdl", },
 						randomId = 15,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- GOODS/ beverages
 						group = "body",
-						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						models = { "ddikr624_1.mdl", "ddikr624_2.mdl", "ddikr624_3.mdl", "ddikr624_4.mdl", "ddihkr_1.mdl", },
 						randomId = 16,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
+					--- GOODS/ meat, fish, vegetables
 					{ 
 						group = "body",
-						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						models = { "eikrt_1.mdl", },
 						randomId = 17,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
+					--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 					{ 
 						group = "body",
-						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						models = { "ekrt50_1.mdl", "ekrt65_1.mdl", "ekrt65_2.mdl", },
 						randomId = 18,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Flüssigkeiten
 						group = "body",
-						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						models = { "ddr_1.mdl", "ddr_2.mdl", },
 						randomId = 19,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
+				--- Ende 
 					{ 
+					--- Schüttgut/ cement, grain, fertilizer, sawdust
 						group = "body",
-						models = { "Ekrt50_1.mdl", "Ekrt65_1.mdl", },
+						models = { "ddzkr_1.mdl", "ddzkr_2.mdl", "ddzkr_3.mdl", "dzkr501_1.mdl", "edkrt_1.mdl", },
 						randomId = 20,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ coal,
 						group = "body",
-						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						models = { "eoskrt021_1_coal.mdl", "eoskrt051_1_coal.mdl", },
 						randomId = 21,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ iron_ore,
 						group = "body",
-						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						models = { "eoskrt021_1_iron.mdl", "eoskrt051_1_iron.mdl", },
 						randomId = 22,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ sand
 						group = "body",
-						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						models = { "eoskrt021_1_sand.mdl", "eoskrt051_1_sand.mdl", },
 						randomId = 23,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ clay
 						group = "body",
-						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						models = { "eoskrt021_1_clay.mdl", "eoskrt051_1_clay.mdl", },
 						randomId = 24,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ stone
 						group = "body",
-						models = { "Eoskrt021_1_coal.mdl", "Eoskrt051_1_coal.mdl", },
+						models = { "eoskrt021_1_stone.mdl", "eoskrt051_1_stone.mdl", },
 						randomId = 25,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
 					{ 
+					--- GOODS/ beverages
 						group = "body",
-						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						models = { "ddikr624_1.mdl", "ddikr624_2.mdl", "ddikr624_3.mdl", "ddikr624_4.mdl", "ddihkr_1.mdl", },
 						randomId = 26,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
+					--- GOODS/ meat, fish, vegetables
 					{ 
 						group = "body",
-						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						models = { "eikrt_1.mdl", },
 						randomId = 27,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
+					--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 					{ 
 						group = "body",
-						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						models = { "ekrt50_1.mdl", "ekrt65_1.mdl", "ekrt65_2.mdl", },
 						randomId = 28,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
 					{ 
+					--- Flüssigkeiten
 						group = "body",
-						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						models = { "ddr_1.mdl", "ddr_2.mdl", },
 						randomId = 29,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.255, 1, },
 					},
+				--- Mitte 
 					{ 
+					--- Schüttgut/ cement, grain, fertilizer, sawdust
 						group = "body",
-						models = { "Eoskrt021_1_iron.mdl", "Eoskrt051_1_iron.mdl", },
+						models = { "ddzkr_1.mdl", "ddzkr_2.mdl", "ddzkr_3.mdl", "dzkr501_1.mdl", "edkrt_1.mdl", },
 						randomId = 30,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ coal,
 						group = "body",
-						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						models = { "eoskrt021_1_coal.mdl", "eoskrt051_1_coal.mdl", },
 						randomId = 31,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ iron_ore,
 						group = "body",
-						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						models = { "eoskrt021_1_iron.mdl", "eoskrt051_1_iron.mdl", },
 						randomId = 32,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ sand
 						group = "body",
-						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						models = { "eoskrt021_1_sand.mdl", "eoskrt051_1_sand.mdl", },
 						randomId = 33,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ clay
 						group = "body",
-						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						models = { "eoskrt021_1_clay.mdl", "eoskrt051_1_clay.mdl", },
 						randomId = 34,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ stone
 						group = "body",
-						models = { "Eoskrt021_1_stone.mdl", "Eoskrt051_1_stone.mdl", },
+						models = { "eoskrt021_1_stone.mdl", "eoskrt051_1_stone.mdl", },
 						randomId = 35,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- GOODS/ beverages
 						group = "body",
-						models = { "Edkrt_1.mdl", },
+						models = { "ddikr624_1.mdl", "ddikr624_2.mdl", "ddikr624_3.mdl", "ddikr624_4.mdl", "ddihkr_1.mdl", },
 						randomId = 36,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
+					--- GOODS/ meat, fish, vegetables
 					{ 
 						group = "body",
-						models = { "Edkrt_1.mdl", },
+						models = { "eikrt_1.mdl", },
 						randomId = 37,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
+					--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 					{ 
 						group = "body",
-						models = { "Edkrt_1.mdl", },
+						models = { "ekrt50_1.mdl", "ekrt65_1.mdl", "ekrt65_2.mdl", },
 						randomId = 38,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Flüssigkeiten
 						group = "body",
-						models = { "Edkrt_1.mdl", },
+						models = { "ddr_1.mdl", "ddr_2.mdl", },
 						randomId = 39,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.255, 1, },
 					},
+				--- Anfang
 					{ 
+					--- Schüttgut/ cement, grain, fertilizer, sawdust
 						group = "body",
-						models = { "Edkrt_1.mdl", },
+						models = { "ddzkr_1.mdl", "ddzkr_2.mdl", "ddzkr_3.mdl", "dzkr501_1.mdl", "edkrt_1.mdl", },
 						randomId = 40,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.2599999904632568359375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ coal
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "eoskrt021_1_coal.mdl", "eoskrt051_1_coal.mdl", },
 						randomId = 41,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ iron_ore
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "eoskrt021_1_iron.mdl", "eoskrt051_1_iron.mdl", },
 						randomId = 42,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ sand
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "eoskrt021_1_sand.mdl", "eoskrt051_1_sand.mdl", },
 						randomId = 43,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ clay
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "eoskrt021_1_clay.mdl", "eoskrt051_1_clay.mdl", },
 						randomId = 44,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Schüttgut/ stone
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "eoskrt021_1_stone.mdl", "eoskrt051_1_stone.mdl", },
 						randomId = 45,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
 					{ 
+					--- GOODS/ beverages
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "ddikr624_1.mdl", "ddikr624_2.mdl", "ddikr624_3.mdl", "ddikr624_4.mdl", "ddihkr_1.mdl", },
 						randomId = 46,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
+					--- GOODS/ meat, fish, vegetables
 					{ 
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "eikrt_1.mdl", },
 						randomId = 47,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
+					--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 					{ 
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "ekrt50_1.mdl", "ekrt65_1.mdl", "ekrt65_2.mdl", },
 						randomId = 48,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
 					{ 
+					--- Flüssigkeiten
 						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
+						models = { "ddr_1.mdl", "ddr_2.mdl", },
 						randomId = 49,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.309999942779541015625, 1, },
-					},
-					{ 
-						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
-						randomId = 50,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.309999942779541015625, 1, },
-					},
-					{ 
-						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
-						randomId = 51,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 1.309999942779541015625, 1, },
-					},
-					{ 
-						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
-						randomId = 52,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, 0, 1.309999942779541015625, 1, },
-					},
-					{ 
-						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
-						randomId = 53,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.309999942779541015625, 1, },
-					},
-					{ 
-						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
-						randomId = 54,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0, 1.309999942779541015625, 1, },
-					},
-					{ 
-						group = "body",
-						models = { "Ddihkr_1.mdl", "Ddr_1.mdl", "Ddr_2.mdl", },
-						randomId = 55,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.309999942779541015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 1.255, 1, },
 					},
 				},
 			},
@@ -1239,188 +1048,22 @@ return {
 				compartments = {
 					{ 
 						loadConfigs = {
+							--- Schüttgut/ cement, grain, fertilizer, sawdust
 							{ 
 								cargoEntry = { 
 									capacity = 16,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+										cargoClassesIncluded = { "BULK", },
+										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/coal.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
 									seats = { },
 								},
 								toHide = { },
 							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
-									},
-									loadIndicator = "slots_1",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
-									},
-									loadIndicator = "slots_2",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
-									},
-									loadIndicator = "slots_3",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
-									},
-									loadIndicator = "slots_4",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
-									},
-									loadIndicator = "slots_5",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
-									},
-									loadIndicator = "slots_6",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
-									},
-									loadIndicator = "slots_7",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
-									},
-									loadIndicator = "slots_8",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
-									},
-									loadIndicator = "slots_9",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
-									},
-									loadIndicator = "slots_10",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
-									},
-									loadIndicator = "slots_11",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
-									},
-									loadIndicator = "slots_12",
-									seats = { },
-								},
-								toHide = { },
-							},
+							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1430,155 +1073,12 @@ return {
 										cargoTypesExcluded = { },
 										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
 									},
-									loadIndicator = "slots_13",
+									loadIndicator = "slots_1",
 									seats = { },
 								},
 								toHide = { },
 							},
-						},
-					},
-					{ 
-						loadConfigs = {
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
-									},
-									loadIndicator = "slots_14",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
-									},
-									loadIndicator = "slots_15",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
-									},
-									loadIndicator = "slots_16",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
-									},
-									loadIndicator = "slots_17",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
-									},
-									loadIndicator = "slots_18",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
-									},
-									loadIndicator = "slots_19",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
-									},
-									loadIndicator = "slots_20",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
-									},
-									loadIndicator = "slots_21",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
-									},
-									loadIndicator = "slots_22",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
-									},
-									loadIndicator = "slots_23",
-									seats = { },
-								},
-								toHide = { },
-							},
+							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1588,11 +1088,350 @@ return {
 										cargoTypesExcluded = { },
 										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
 									},
+									loadIndicator = "slots_2",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ sand
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/sand/sand.cargo", },
+									},
+									loadIndicator = "slots_3",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ clay
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/clay/clay.cargo", },
+									},
+									loadIndicator = "slots_4",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ stone
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_5",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ beverages
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/beverages/beverages.cargo", },
+									},
+									loadIndicator = "slots_6",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ meat, fish, vegetables
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = {  },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
+									},
+									loadIndicator = "slots_7",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS" },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/beverages/beverages.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_8",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- LIQUID
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID" },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_9",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							--- Schüttgut/ cement, grain, fertilizer, sawdust
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "BULK", },
+										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/coal.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_10",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ coal
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+									},
+									loadIndicator = "slots_11",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ iron_ore
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
+									},
+									loadIndicator = "slots_12",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ sand
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/sand/sand.cargo", },
+									},
+									loadIndicator = "slots_13",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ clay
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/clay/clay.cargo", },
+									},
+									loadIndicator = "slots_14",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ stone
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_15",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ beverages
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/beverages/beverages.cargo", },
+									},
+									loadIndicator = "slots_16",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ meat, fish, vegetables
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = {  },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
+									},
+									loadIndicator = "slots_17",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS" },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/beverages/beverages.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_18",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- LIQUID
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID" },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_19",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							--- Schüttgut/ cement, grain, fertilizer, sawdust
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "BULK", },
+										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/coal.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_20",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ coal
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+									},
+									loadIndicator = "slots_21",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ iron_ore
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
+									},
+									loadIndicator = "slots_22",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ sand
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/sand/sand.cargo", },
+									},
+									loadIndicator = "slots_23",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ clay
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/clay/clay.cargo", },
+									},
 									loadIndicator = "slots_24",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1607,6 +1446,86 @@ return {
 								},
 								toHide = { },
 							},
+							--- GOODS/ beverages
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/beverages/beverages.cargo", },
+									},
+									loadIndicator = "slots_26",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ meat, fish, vegetables
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = {  },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
+									},
+									loadIndicator = "slots_27",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS" },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/beverages/beverages.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_28",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- LIQUID
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID" },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_29",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							--- Schüttgut/ cement, grain, fertilizer, sawdust
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "BULK", },
+										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/coal.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_30",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1616,155 +1535,12 @@ return {
 										cargoTypesExcluded = { },
 										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
 									},
-									loadIndicator = "slots_26",
-									seats = { },
-								},
-								toHide = { },
-							},
-						},
-					},
-					{ 
-						loadConfigs = {
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
-									},
-									loadIndicator = "slots_27",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
-									},
-									loadIndicator = "slots_28",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
-									},
-									loadIndicator = "slots_29",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
-									},
-									loadIndicator = "slots_30",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
-									},
 									loadIndicator = "slots_31",
 									seats = { },
 								},
 								toHide = { },
 							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
-									},
-									loadIndicator = "slots_32",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
-									},
-									loadIndicator = "slots_33",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
-									},
-									loadIndicator = "slots_34",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
-									},
-									loadIndicator = "slots_35",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
-									},
-									loadIndicator = "slots_36",
-									seats = { },
-								},
-								toHide = { },
-							},
+							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1774,11 +1550,42 @@ return {
 										cargoTypesExcluded = { },
 										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
 									},
-									loadIndicator = "slots_37",
+									loadIndicator = "slots_32",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- Schüttgut/ sand
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/sand/sand.cargo", },
+									},
+									loadIndicator = "slots_33",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ clay
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/clay/clay.cargo", },
+									},
+									loadIndicator = "slots_34",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1788,11 +1595,12 @@ return {
 										cargoTypesExcluded = { },
 										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
 									},
-									loadIndicator = "slots_38",
+									loadIndicator = "slots_35",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- GOODS/ beverages
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1800,7 +1608,52 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
+										cargoTypesIncluded = { "::/cargos/beverages/beverages.cargo", },
+									},
+									loadIndicator = "slots_36",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ meat, fish, vegetables
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = {  },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
+									},
+									loadIndicator = "slots_37",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS" },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/beverages/beverages.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_38",
+									seats = { },
+								},
+								toHide = { },
+							},
+							--- LIQUID
+							{ 
+								cargoEntry = { 
+									capacity = 16,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID" },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_39",
 									seats = { },
@@ -1811,20 +1664,22 @@ return {
 					},
 					{ 
 						loadConfigs = {
+							--- Schüttgut/ cement, grain, fertilizer, sawdust
 							{ 
 								cargoEntry = { 
 									capacity = 16,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+										cargoClassesIncluded = { "BULK", },
+										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/coal.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_40",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- Schüttgut/ coal
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1832,13 +1687,14 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
 									},
 									loadIndicator = "slots_41",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- Schüttgut/ iron_ore
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1846,13 +1702,14 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
+										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
 									},
 									loadIndicator = "slots_42",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- Schüttgut/ sand
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1860,13 +1717,14 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
+										cargoTypesIncluded = { "::/cargos/sand/sand.cargo", },
 									},
 									loadIndicator = "slots_43",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- Schüttgut/ clay
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1874,13 +1732,14 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
+										cargoTypesIncluded = { "::/cargos/clay/clay.cargo", },
 									},
 									loadIndicator = "slots_44",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- Schüttgut/ stone
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1888,13 +1747,14 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
 									},
 									loadIndicator = "slots_45",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- GOODS/ beverages
 							{ 
 								cargoEntry = { 
 									capacity = 16,
@@ -1902,293 +1762,54 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+										cargoTypesIncluded = { "::/cargos/beverages/beverages.cargo", },
 									},
 									loadIndicator = "slots_46",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- GOODS/ meat, fish, vegetables
 							{ 
 								cargoEntry = { 
 									capacity = 16,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = {  },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
+										cargoTypesIncluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
 									},
 									loadIndicator = "slots_47",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- GOODS/ books, bricks, clothes, fabric, furniture, glass, paper, plastic, tinned_food, wool
 							{ 
 								cargoEntry = { 
 									capacity = 16,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
+										cargoClassesIncluded = { "GOODS" },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/beverages/beverages.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_48",
 									seats = { },
 								},
 								toHide = { },
 							},
+							--- LIQUID
 							{ 
 								cargoEntry = { 
 									capacity = 16,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "LIQUID" },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_49",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
-									},
-									loadIndicator = "slots_50",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
-									},
-									loadIndicator = "slots_51",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
-									},
-									loadIndicator = "slots_52",
-									seats = { },
-								},
-								toHide = { },
-							},
-						},
-					},
-					{ 
-						loadConfigs = {
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
-									},
-									loadIndicator = "slots_53",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
-									},
-									loadIndicator = "slots_54",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
-									},
-									loadIndicator = "slots_55",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
-									},
-									loadIndicator = "slots_56",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
-									},
-									loadIndicator = "slots_57",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
-									},
-									loadIndicator = "slots_58",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
-									},
-									loadIndicator = "slots_59",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/oil/oil.cargo", },
-									},
-									loadIndicator = "slots_60",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/crude/crude.cargo", },
-									},
-									loadIndicator = "slots_61",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/fuel/fuel.cargo", },
-									},
-									loadIndicator = "slots_62",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
-									},
-									loadIndicator = "slots_63",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/iron_ore/iron_ore.cargo", },
-									},
-									loadIndicator = "slots_64",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
-									},
-									loadIndicator = "slots_65",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 16,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
-									},
-									loadIndicator = "slots_66",
 									seats = { },
 								},
 								toHide = { },

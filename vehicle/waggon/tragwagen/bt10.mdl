@@ -137,8 +137,8 @@ return {
 			cost = { 
 				price = -1,
 			},
-			desc = { 
-				desc = _("bt10_1_desc"),
+			description = { 
+				description = _("bt10_1_desc"),
 				name = _("bt10_1"),
 			},
 			emissions = { 
@@ -713,7 +713,7 @@ return {
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
-										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/caol.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
+										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/coal.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
 										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
@@ -729,7 +729,7 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/coal/caol.cargo", },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
 									},
 									loadIndicator = "slots_1",
 									seats = { },
@@ -867,7 +867,7 @@ return {
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
-										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/caol.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
+										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/coal.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
 										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_10",
@@ -883,7 +883,7 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/coal/caol.cargo", },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
 									},
 									loadIndicator = "slots_11",
 									seats = { },
@@ -1021,7 +1021,7 @@ return {
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "BULK", },
-										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/caol.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
+										cargoTypesExcluded = { "::/cargos/clay/clay.cargo", "::/cargos/coal/coal.cargo", "::/cargos/sand/sand.cargo", "::/cargos/iron_ore/iron_ore.cargo", "::/cargos/stone/stone.cargo", },
 										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_20",
@@ -1037,7 +1037,7 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/coal/caol.cargo", },
+										cargoTypesIncluded = { "::/cargos/coal/coal.cargo", },
 									},
 									loadIndicator = "slots_21",
 									seats = { },
