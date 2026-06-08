@@ -37,7 +37,7 @@ return {
 			map_albedo = { 
 				fragmentSamplers = { 
 					albedoTex = { 
-						fileName = "tex/rumpf_Laabkkmms588_albedo.dds",
+						fileName = "tex/rumpf_lbms584_albedo.dds",
 						type = "TWOD",
 					},
 				},
@@ -45,7 +45,7 @@ return {
 			map_cblend_dirt_rust = { 
 				fragmentSamplers = { 
 					cblendDirtRustTex = { 
-						fileName = "tex/rumpf_BTs50_cblend_dirt_rust.dds",
+						fileName = "tex/rumpf_btms55_cblend_dirt_rust.dds",
 						type = "TWOD",
 					},
 				},
@@ -70,7 +70,7 @@ return {
 			map_metal_gloss_ao = { 
 				fragmentSamplers = { 
 					metalGlossAoTex = { 
-						fileName = "tex/rumpf_BTs50_metal_gloss_ao.dds",
+						fileName = "tex/rumpf_btms55_metal_gloss_ao.dds",
 						type = "TWOD",
 					},
 				},
@@ -78,7 +78,7 @@ return {
 			map_normal = { 
 				fragmentSamplers = { 
 					normalTex = { 
-						fileName = "tex/rumpf_BTs50_normal.dds",
+						fileName = "tex/rumpf_btms55_normal.dds",
 						redGreen = true,
 						type = "TWOD",
 					},
