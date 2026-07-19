@@ -15,7 +15,7 @@
         }
     ],
     "incompatibilities": null,
-    "modId": "mw_tragwagen",
+    "modId": "mw_pa_tragwagen",
     "params": null,
     "postRunScript": {
         "fileName": ""
