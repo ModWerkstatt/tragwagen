@@ -216,7 +216,7 @@ return {
 				},
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.6,
 				engines = { },
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 27.77777862548828125,
